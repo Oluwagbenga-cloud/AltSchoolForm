@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>User Registration</h1>
+
+    <form id="registrationForm" novalidate>
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" placeholder="John Doe"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" placeholder="john@example.com"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" placeholder="25"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password"><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword"><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <div id="successMessage" style="color: green; font-weight: bold; margin-top: 20px; display: none;">
+        Registration successful! Welcome aboard!
+    </div>
+    
+</body>
+</html>
